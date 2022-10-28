@@ -4,10 +4,9 @@ import Form from "./form.js";
 
 function Interface() {
   return (
-    <div>
+    <div id="interface">
       <Navigation />
-      <div dangerouslySetInnerHTML={{ __html: "<h3>Log in</h3>" }} />
-      <Form />
+      <Login />
     </div>
   );
 }

@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#login-form{
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1)  ; 
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #ccd9ff;
+}
+
+#nav-bar{
+  border-bottom: 1px solid #ccd9ff;;
+}
+
+#login-label {
+  padding: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccd9ff;
+  background-color: #e2e8f9;
+  color: #0d6efd;
+}
+
+#form{
+  padding: 20px;
+}
+
+#logo{
+  font-weight: 600;
+  color: #0d6efd;
+}
